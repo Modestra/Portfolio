@@ -6,5 +6,12 @@
     border-color: #ffb61e;
 }
 .head-links{
-
+    display: flex;
+    height: 100%;
+    width: 300px;
+    margin-right: 50px;
+}
+a{
+    color: #ffb61e;
+    text-decoration: none;
 }
