@@ -1,0 +1,15 @@
+*{
+    margin: 0 auto;
+}
+.main{
+    display: flex;
+    background-color: #1f1e1b;
+}
+.portfolio-photo{
+    width: 50%;
+    height: 400px;
+}
+.portfolio-text{
+    width: 50%;
+    height: 400px;
+}
