@@ -5,13 +5,15 @@
     border-bottom: 2px solid;
     border-color: #ffb61e;
 }
-.head-links{
-    display: flex;
-    height: 100%;
-    width: 300px;
-    margin-right: 50px;
+.head-links {
+    display: inline;
+    height: 50px;
+    width: 350px;
 }
 a{
+    width: 75px;
+    margin-left: 80px;
+    margin-right: 80px;
     color: #ffb61e;
     text-decoration: none;
 }

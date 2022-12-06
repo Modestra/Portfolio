@@ -11,6 +11,12 @@
     height: 400px;
 }
 .portfolio-text{
+    display: block;
     width: 50%;
     height: 400px;
+    text-align: center;
+    vertical-align: middle;
+}
+.portfolio-text-headler{
+    color: #ffb61e;
 }
