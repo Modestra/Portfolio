@@ -5,7 +5,7 @@
 }
 .main{
     display: flex;
-    background: linear-gradient(90deg, #1f1e1b, rgb(189, 126, 9));
+    background: linear-gradient(90deg, #1f1e1b, rgb(33, 189, 9));
 }
 .portfolio-photo{
     width: 50%;
@@ -16,7 +16,7 @@
 .portfolio-text{
     width: 50%;
     height: 100%;
-    color: #ffb61e;
+    color: rgb(33, 189, 9);
 }
 .portfolio-text-block{
     display: block;
@@ -27,7 +27,7 @@
     text-align: center;
 }
 .portfolio-text-block-contacts{
-    color: #ffb61e;
+    color: rgb(33, 189, 9);
     height: 40px;
     font-size: 30px;
 }
