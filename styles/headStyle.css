@@ -16,8 +16,13 @@
     width: 100px;
     height: 20px;
 }
-.head-links-link{
+.head-links-link {
     color: rgb(33, 189, 9);
     font-family: sans-serif;
     text-decoration: none;
+}
+.head-links-link:hover{
+    box-shadow: rgb(33, 189, 9);
+    color: red;
+    text-decoration: underline;
 }
