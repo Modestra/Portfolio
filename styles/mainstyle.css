@@ -8,16 +8,34 @@
 }
 .portfolio-photo{
     width: 50%;
-    height: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 .portfolio-text{
-    display: block;
     width: 50%;
-    height: 400px;
-    text-align: center;
-    vertical-align: middle;
-    color: #2e54c0;
-}
-.portfolio-text-headler{
+    height: 100%;
     color: #ffb61e;
+}
+.portfolio-text-block{
+    display: block;
+    width: 80%;
+    margin-top: 45%;
+    margin-bottom: 45%;
+    height: 100px;
+    text-align: center;
+}
+.portfolio-text-block-contacts{
+    color: #ffb61e;
+    height: 40px;
+    font-size: 30px;
+}
+.portfolio-text-block-description{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+.portfolio-photo img{
+    width: 400px;
+    height: 400px;
 }

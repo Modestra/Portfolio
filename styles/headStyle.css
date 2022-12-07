@@ -6,14 +6,18 @@
     border-color: #ffb61e;
 }
 .head-links {
-    display: inline;
-    height: 50px;
-    width: 350px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
-a{
-    width: 75px;
-    margin-left: 80px;
-    margin-right: 80px;
+.head-links-div{
+    width: 100px;
+    height: 20px;
+}
+.head-links-link{
     color: #ffb61e;
+    font-family: sans-serif;
     text-decoration: none;
 }
