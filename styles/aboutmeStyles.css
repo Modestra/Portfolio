@@ -2,3 +2,10 @@
     margin: 0 auto;
     background-color: #1f1e1b;
 }
+.main-content{
+    background: linear-gradient(180deg,#1f1e1b,rgb(33, 189, 9));
+}
+.main-content-block{
+    width: 100px;
+    height: 100px;
+}
