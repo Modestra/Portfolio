@@ -1,10 +1,11 @@
 *{
     margin: 0 auto;
     height: 100%;
+    font-family: sans-serif;
 }
 .main{
     display: flex;
-    background-color: #1f1e1b;
+    background: linear-gradient(90deg, #1f1e1b, rgb(189, 126, 9));
 }
 .portfolio-photo{
     width: 50%;
@@ -38,4 +39,5 @@
 .portfolio-photo img{
     width: 400px;
     height: 400px;
+    margin-bottom: 90px;
 }
