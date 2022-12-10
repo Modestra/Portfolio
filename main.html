@@ -9,14 +9,14 @@
     <link href="styles/mainstyle.css" rel="stylesheet">
 </head>
 <body>
-    <header class="head">
+    <header id="hat" class="head">
         <div class="head-links">
-            <div class="head-links-div"><a class="head-links-link" href="aboutme.html">О Себе</a></div>
+            <div id="linkaboutme" class="head-links-div"><a class="head-links-link" href="aboutme.html" onmouseover="changeGradienthover()" onmouseout="changeGradientout()">О Себе</a></div>
             <div class="head-links-div"><a class="head-links-link">Проекты</a></div>
             <div class="head-links-div"><a class="head-links-link">Документации</a></div>
         </div>
     </header>
-    <div class="main">
+    <div id="main" class="main">
         <div class="portfolio-text">
             <div class="portfolio-text-block">
                 <p class="portfolio-text-block-contacts">Это моё портфолио</p>
@@ -27,5 +27,6 @@
             <img src="../images/default-image.png">
         </div>
     </div>
+    <script src="scripts/script.js" type="text/javascript"></script>
 </body>
 </html>

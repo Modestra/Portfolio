@@ -5,6 +5,7 @@
 }
 .main{
     display: flex;
+    background-size: 200% 200%;
     background: linear-gradient(90deg, #1f1e1b, rgb(33, 189, 9));
 }
 .portfolio-photo{
@@ -40,4 +41,13 @@
     width: 400px;
     height: 400px;
     margin-bottom: 90px;
+}
+.active{
+    animation: anim 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes anim {
+    100%{
+        box-shadow: -2000px -50px 150px 0 rgba(217, 34, 34, 0.51) inset;
+    }
 }

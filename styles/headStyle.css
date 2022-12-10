@@ -22,7 +22,10 @@
     text-decoration: none;
 }
 .head-links-link:hover{
-    box-shadow: rgb(33, 189, 9);
     color: red;
-    text-decoration: underline;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.head-links-link:hover .portfolio-text-block-contacts{
+    color: red;
 }
