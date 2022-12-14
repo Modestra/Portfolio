@@ -21,6 +21,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
+    border: 2px solid green;
+    border-radius: 20px;
 }
 .main-content-block-info a{
 
@@ -41,6 +43,6 @@
     font-size: 30px;
 }
 .main-content-block-info img{
-    border-radius: 50%;
+    border-radius: 20px;
     width: 50px;
 }
