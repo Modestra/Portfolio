@@ -51,3 +51,7 @@
         box-shadow: -2000px -50px 150px 0 rgba(217, 34, 34, 0.51) inset;
     }
 }
+.icon-back-to-main div img{
+    width: 70px;
+    height: 70px;
+}
