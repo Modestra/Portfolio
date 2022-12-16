@@ -51,7 +51,26 @@
         box-shadow: -2000px -50px 150px 0 rgba(217, 34, 34, 0.51) inset;
     }
 }
-.icon-back-to-main div img{
+.icon-back-to-main{
+    position: fixed;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    bottom: 10px;
+    right: 20px;
     width: 70px;
     height: 70px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.icon-back-to-main img{
+    width: 40px;
+    height: 40px;
+    background: none;
+}
+.icon-back-to-main:hover{
+    cursor: pointer;
+}
+.main-content{
+    background: linear-gradient(180deg,#1f1e1b,rgb(33, 189, 9));
 }

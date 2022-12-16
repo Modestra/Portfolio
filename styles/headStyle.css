@@ -29,3 +29,13 @@
 .head-links-link:hover .portfolio-text-block-contacts{
     color: red;
 }
+.line-head{
+    animation: lineanim 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes lineanim {
+    100%{
+        box-shadow: -3px 22px 14px -11px rgba(255, 0, 0, 0.2);
+        border-bottom-color: rgba(255, 0, 0, 0.2);
+    }
+}
