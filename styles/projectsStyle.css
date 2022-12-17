@@ -26,6 +26,33 @@ body{
     border: 2px solid rgb(26, 133, 9);
 }
 .project-content-block-inline{
+    border-radius: 20px;
+    background-color: #252323;
+    border: 2px solid rgb(26, 133, 9);
+    width: 80%;
+    height: 10%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+.project-content-block-text{
+    display: block;
+    justify-items: flex-start;
+    width: 45%;
+}
+.project-content-block-name {
+    color: green;
+    margin-top: 10px;
+    height: 20px;
+}
+.project-content-block-discription{
+    color: gray;
+}
+.project-content-block-icons{
+    width: 45px;
+    height: 45px;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7px;
 }
