@@ -40,6 +40,18 @@ section {
   border: 2px solid #a1a1a1;
   border-radius: 10px; }
 
+.link-main:hover {
+  background-color: #FEB9FF; }
+
+.link-about:hover {
+  background-color: #FFFCAC; }
+
+.link-projects:hover {
+  background-color: #71FF6F; }
+
+.link-contacts:hover {
+  background-color: #6DFFEE; }
+
 .link-navbar button {
   width: 35px;
   height: 35px;
@@ -47,7 +59,6 @@ section {
   border-radius: 10px; }
 
 .link-navbar button:hover {
-  background-color: aqua;
   cursor: pointer; }
 
 /*# sourceMappingURL=Header.css.map */

@@ -8,10 +8,10 @@ function Header() {
             <section className={"links"}>
                 <p>Моё портфолио</p>
                 <nav className={"link-navbar"}>
-                    <a href="/" className={"link-main"}><button type={"button"}></button></a>
-                    <a href="/About" className={"link-about"}><button type={"button"}></button></a>
-                    <a href="/Projects" className={"link-projects"}><button type={"button"}></button></a>
-                    <a href="/Contacts" className={"link-contacts"}><button type={"button"}></button></a>
+                    <a href="/"><button className={"link-main"} type={"button"}></button></a>
+                    <a href="/About"><button className={"link-about"} type={"button"}></button></a>
+                    <a href="/Projects"><button className={"link-projects"} type={"button"}></button></a>
+                    <a href="/Contacts"><button className={"link-contacts"} type={"button"}></button></a>
                 </nav>
             </section>
         </header>

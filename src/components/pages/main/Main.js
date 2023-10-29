@@ -2,7 +2,10 @@ import "./Main.css"
 
 function Main(){
     return(
-        <div>Главная</div>
+        <main>
+            <div className="introduction"></div>
+
+        </main>
     )
 }
 
